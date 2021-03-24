@@ -9,11 +9,11 @@ describe('App', () => {
     wrapper = shallow(<App />);
   });
 
-  it('render greet block', () => {
+  it('render signin block', () => {
 
     expect( 
       wrapper.find('#greet').text() 
-    ).toContain('TDD')
+    ).toContain('Sign')
 
   });
 

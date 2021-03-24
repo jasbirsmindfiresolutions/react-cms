@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from './components/signin'
 
 function App() {
   return (
     <div className="App">
     <div id="greet">
-      <h1>Welcome to TDD</h1>
+      <h1>Signin</h1>
+      <Login />
     </div>
     </div>
   );
